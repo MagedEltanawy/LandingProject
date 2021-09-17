@@ -27,7 +27,11 @@ const fragment=document.createDocumentFragment();   //make fragment to decrease 
  * Start Helper Functions
  * 
 */
-
+function createNavLinks(section){   //function for list creation
+    const listItem = document.createElement('li');
+    listItem.innerHTML=`<a href = ''>${section.getAttribute('data-nav')}</a>`;
+    fragment.appendChild(listItem);
+}
 
 
 /**
@@ -67,5 +71,10 @@ and the relative path ok */
 //Tested and OK
 
 // check that nav_list were selected
-console.log(navList.outerHTML);
+//console.log(navList.outerHTML);
 //Tested and OK
+
+//check that createNavLinks function work correctly
+/*createNavLinks(document.querySelector('section'));
+document.body.appendChild(fragment);*/
+//Tested and Ok
