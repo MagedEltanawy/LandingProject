@@ -72,6 +72,14 @@ section {
 
 .navbar__menu li {
     display: inline-block;
+    padding: 2px;
+    margin:5px;
+    border:2px dotted blue;
+    border-radius: 2px;
+    background-color: rgba(222, 238, 221, 0.808);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+    color: rgb(0, 0, 0);
 }
 
 .navbar__menu .menu__link {

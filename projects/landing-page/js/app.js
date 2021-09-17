@@ -41,8 +41,8 @@ function createNavLinks(section){   //function for list creation
 */
 
 // build the nav 
-sections.forEach(createNavLinks);
-navList.appendChild(fragment);
+sections.forEach(createNavLinks);  //add sections to the fragment
+navList.appendChild(fragment);  //add the fragment to the nav list
 
 // Add class 'active' to section when near top of viewport
 
