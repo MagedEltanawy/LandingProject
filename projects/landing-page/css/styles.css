@@ -74,17 +74,18 @@ section {
     display: inline-block;
     padding: 2px;
     margin:5px;
-    border:2px dotted blue;
+    border:2px dotted rgb(91, 199, 241);
     border-radius: 2px;
     background-color: rgba(222, 238, 221, 0.808);
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'cursive','Courier New', Courier, monospace;;
     font-size: larger;
+    font-weight: bold;
     color: rgb(0, 0, 0);
     }
     .navbar__menu li :hover{
-        background-color: rgb(245, 127, 127);
+        background-color: rgb(1, 34, 95);
         font-size: larger;
-        color: rgb(0, 0, 0);
+        color: rgb(228, 218, 218);
         }
 .navbar__menu .menu__link {
     display: block;
