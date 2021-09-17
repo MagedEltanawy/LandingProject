@@ -17,7 +17,9 @@
  * Define Global Variables
  * 
 */
-const sections =document.querySelectorAll('main section');
+const sections =document.querySelectorAll('main section');  //select sections from main
+const navList=document.querySelector('#navbar__list');  //select the list of navigation parent UL element
+const fragment=document.createDocumentFragment();   //make fragment to decrease reflow and repaint (efficient)
 
 
 /**
@@ -56,9 +58,14 @@ const sections =document.querySelectorAll('main section');
 // Set sections as active
 
 // test code
-console.log('Hello Tanawy'); 
+//console.log('Hello Tanawy'); 
 /*it worked so the script tag was added 
 and the relative path ok */
 
 // check that sections were selected
-console.log(sections);
+//console.log(sections);
+//Tested and OK
+
+// check that nav_list were selected
+console.log(navList.outerHTML);
+//Tested and OK
