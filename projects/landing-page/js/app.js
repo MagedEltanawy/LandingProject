@@ -17,6 +17,7 @@
  * Define Global Variables
  * 
 */
+const sections =document.querySelectorAll('main section');
 
 
 /**
@@ -54,4 +55,10 @@
 
 // Set sections as active
 
+// test code
+console.log('Hello Tanawy'); 
+/*it worked so the script tag was added 
+and the relative path ok */
 
+// check that sections were selected
+console.log(sections);
