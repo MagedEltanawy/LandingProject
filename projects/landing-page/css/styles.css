@@ -80,8 +80,12 @@ section {
     font-family: 'Courier New', Courier, monospace;
     font-size: larger;
     color: rgb(0, 0, 0);
-}
-
+    }
+    .navbar__menu li :hover{
+        background-color: rgb(245, 127, 127);
+        font-size: larger;
+        color: rgb(0, 0, 0);
+        }
 .navbar__menu .menu__link {
     display: block;
     padding: 1em;
