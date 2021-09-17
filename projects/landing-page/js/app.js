@@ -28,9 +28,9 @@ const fragment=document.createDocumentFragment();   //make fragment to decrease 
  * 
 */
 function createNavLinks(section){   //function for list creation
-    const listItem = document.createElement('li');
-    listItem.innerHTML=`<a href = ''>${section.getAttribute('data-nav')}</a>`;
-    fragment.appendChild(listItem);
+    const listItem = document.createElement('li');  //create empty list element
+    listItem.innerHTML=`<a href = '#${section.getAttribute('id')}'>${section.getAttribute('data-nav')}</a>`;  //add html contents to list element
+    fragment.appendChild(listItem);  //add the links to the fragment 
 }
 
 
@@ -40,8 +40,9 @@ function createNavLinks(section){   //function for list creation
  * 
 */
 
-// build the nav
-
+// build the nav 
+//sections.forEach(createNavLinks(currentValue));
+//navList.appendChild(fragment);
 
 // Add class 'active' to section when near top of viewport
 
@@ -75,6 +76,7 @@ and the relative path ok */
 //Tested and OK
 
 //check that createNavLinks function work correctly
-/*createNavLinks(document.querySelector('section'));
-document.body.appendChild(fragment);*/
+/* createNavLinks(document.querySelector('section'));
+createNavLinks(document.querySelector('#section2'));
+document.body.appendChild(fragment); */
 //Tested and Ok
