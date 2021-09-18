@@ -27,23 +27,33 @@ const main=document.querySelector('main'); //select main element contains sectio
  * Start Helper Functions
  * 
 */
+//add the active section class
+function activeSection(section){  
+    const rec=section.getBoundingClientRect();
+     if (rec.top<=100){             
+        let nodes=section.parentNode.childNodes
+        nodes.forEach(function(node){
+             if (node.nodeName == 'SECTION'){
+             node.classList.remove('your-active-class');                       
+             }            
+            } ) 
+            section.classList.add('your-active-class'); 
+    } 
+}
+
+
+//Add eventListener for sections in viewport
+/* function sectionAddListener(section){
+    main.addEventListener('scroll',activeSection);
+ }  */
+
 function createNavLinks(section){   //function for list creation
+    // sectionAddListener(section);
     const listItem = document.createElement('li');  //create empty list element
     listItem.innerHTML=`<a href='' link='#${section.getAttribute('id')}'>${section.getAttribute('data-nav')}</a>`;  //add html contents to list element
     fragment.appendChild(listItem);  //add the links to the fragment 
 }
-/* 
-//add the active section class
-function activeSection(evnt){
-    console.log(typeof(evnt.target))
-}
 
-//Add eventListener for sections in viewport
-function sectionAddListener(section){
-    section.addEventListener('click',activeSection);
- }
- 
- */
 /**
  * End Helper Functions
  * Begin Main Functions
@@ -52,7 +62,7 @@ function sectionAddListener(section){
 
 // build the nav 
 sections.forEach(createNavLinks);  //add sections to the fragment
-// sections.forEach(addListener);  //add event listener to sections
+document.addEventListener('scroll',function(e){sections.forEach(activeSection);})  //
 navList.appendChild(fragment);  //add the fragment to the nav list
 //Add eventListener to Nav links
  navList.addEventListener('click',function(evnt){
@@ -62,6 +72,7 @@ navList.appendChild(fragment);  //add the fragment to the nav list
         }
      
 }) 
+// document.addEventListener('scroll',activeSection);
 
 // section.classList.add(class="your-active-class")
 // Add class 'active' to section when near top of viewport
