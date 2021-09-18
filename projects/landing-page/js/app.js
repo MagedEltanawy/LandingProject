@@ -30,7 +30,7 @@ const main=document.querySelector('main'); //select main element contains sectio
 //add the active section class
 function activeSection(section){  
     const rec=section.getBoundingClientRect();
-     if (rec.top<=100){             
+     if (rec.top<=200){             
         let nodes=section.parentNode.childNodes
         nodes.forEach(function(node){
              if (node.nodeName == 'SECTION'){
