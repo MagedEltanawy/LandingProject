@@ -72,14 +72,6 @@ navList.appendChild(fragment);  //add the fragment to the nav list
         }
      
 }) 
-// document.addEventListener('scroll',activeSection);
-
-// section.classList.add(class="your-active-class")
-// Add class 'active' to section when near top of viewport
-// main.addEventListener(scrollTo,activeSheetHandler);
-
-// Scroll to anchor ID using scrollTO event
-
 
 /**
  * End Main Functions
