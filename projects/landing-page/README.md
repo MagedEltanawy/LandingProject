@@ -2,7 +2,7 @@
 
 <button type="button" name="button" onclick="https://github.com/MagedEltanawy/LandingProject.git">The Project</button>
 
-![COver Image "Javascript Github"](https://www.canva.com/design/DAEqd2Y5bRo/CFM0itLLxQN1dUpC6qYG9g/view?utm_content=DAEqd2Y5bRo&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)
+![COver Image "Javascript Github"](javascript.png)
 
 > ## Description :
 >
@@ -42,9 +42,9 @@
 
 - To use this project, first clone the repo on your device using the command below:
 
-	-```git init```
+	1. ```git init```
 
-	-```git clone https://github.com/MagedEltanawy/LandingProject.git```
+	2. ```git clone https://github.com/MagedEltanawy/LandingProject.git```
 
 # Usage
 [(Back to top)](#table-of-contents)
@@ -79,6 +79,4 @@
 
 - Leave a star in GitHub, give a clap in Medium and share this guide if you found this helpful.
 
-[My Stars](https://img.shields.io/github/stars/MagedEltanawy?style=social)
-
-![Footer]()
+![Footer](https://img.shields.io/github/stars/MagedEltanawy?style=social)
