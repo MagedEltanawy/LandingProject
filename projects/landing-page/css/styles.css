@@ -211,7 +211,7 @@ section:nth-of-type(3n + 1) .landing__container::after {
 /* Note: your-active-class class is applied through javascript. You should update the class here and in the index.html to what you set in your javascript file.  */
 section.your-active-class {
     background: rgb(5, 5, 5);
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0) 100%);
+    background: linear-gradient(0deg, rgb(2 3 19 / 88%) 0%, rgb(41 109 62 / 40%) 100%);
 }
 
 section.your-active-class .landing__container::before {
@@ -245,4 +245,11 @@ a {
     font-variant: small-caps;
     letter-spacing: 0.3vw;
     text-shadow: 2px 2px 2px rgb(202 187 96);
+}
+button {
+   background:radial-gradient(ellipse ,rgb(235, 230, 230) 40%,rgb(233, 112, 112) 60%);
+   float: right;
+   font-size: medium;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-weight:bold;
 }
