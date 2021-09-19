@@ -1,13 +1,84 @@
 # Landing Page Project
 
-## Table of Contents
+<button type="button" name="button" onclick="https://github.com/MagedEltanawy/LandingProject.git">The Project</button>
 
-* [Instructions](#instructions)
+![COver Image "Javascript Github"](https://www.canva.com/design/DAEqd2Y5bRo/CFM0itLLxQN1dUpC6qYG9g/view?utm_content=DAEqd2Y5bRo&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink)
 
-## Instructions
+> ## Description :
+>
+>
+> The project is a static page that was converted to be dynamic after adding ***javascript*** code and little ***css*** to make
+> the page resposive and looks good .
+> 
+> There are numerous of dynamic features that added to the static page :
+> - The page have **navbar** and **sections** .  
+> - The navbar list will be dynamically created .  
+> - The list contains links to the relevant section when clicked it go to it smoothly .  
+> - when scrolling the page the section style is changing for the active one .  
+> - It's responsive . 
 
-The starter project has some HTML and CSS styling to display a static version of the Landing Page project. You'll need to convert this project from a static project to an interactive one. This will require modifying the HTML and CSS files, but primarily the JavaScript file.
 
-To get started, open `js/app.js` and start building out the app's functionality
+# Demo-Preview
 
-For specific, detailed instructions, look at the project instructions in the Udacity Classroom.
+<!-- Add a demo for your project -->
+
+# Table of contents
+
+
+- [Project Title](#project-title)
+- [Demo-Preview](#demo-preview)
+- [Table of contents](#table-of-contents)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Development](#development)
+- [Contribute](#contribute)
+    - [Sponsor](#sponsor)
+    - [Adding new features or fixing bugs](#adding-new-features-or-fixing-bugs)
+- [License](#license)
+- [Footer](#footer)
+
+# Installation
+[(Back to top)](#table-of-contents)
+
+- To use this project, first clone the repo on your device using the command below:
+
+	-```git init```
+
+	-```git clone https://github.com/MagedEltanawy/LandingProject.git```
+
+# Usage
+[(Back to top)](#table-of-contents)
+
+<!-- This is optional and it is used to give the user info on how to use the project after installation. This could be added in the Installation section also. -->
+
+# Development
+[(Back to top)](#table-of-contents)
+
+ - There is no Special setup to start use the code and contribute to its development.
+
+# Contribute
+[(Back to top)](#table-of-contents)
+
+ - you can clone the code and make a new branch add features you want then you can contact me for testing and aprove your merge .
+
+### Sponsor
+[(Back to top)](#table-of-contents)
+
+ - This code is sponsored by UDACITY
+
+### Adding new features or fixing bugs
+[(Back to top)](#table-of-contents)
+
+# License
+[(Back to top)](#table-of-contents)
+
+[GNU General Public License version 3](https://opensource.org/licenses/GPL-3.0)
+
+# Footer
+[(Back to top)](#table-of-contents)
+
+- Leave a star in GitHub, give a clap in Medium and share this guide if you found this helpful.
+
+[My Stars](https://img.shields.io/github/stars/MagedEltanawy?style=social)
+
+![Footer]()
