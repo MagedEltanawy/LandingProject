@@ -1,7 +1,5 @@
 # Landing Page Project
 
-<button type="button" name="button" onclick="https://github.com/MagedEltanawy/LandingProject.git">The Project</button>
-
 <!--![COver Image "Javascript Github"](./javaScript.png)-->
 
 > ## Description :
