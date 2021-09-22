@@ -248,8 +248,17 @@ a {
 }
 button {
    background:radial-gradient(ellipse ,rgb(235, 230, 230) 40%,rgb(233, 112, 112) 60%);
-   float: right;
-   font-size: medium;
+   position: fixed;
+   bottom: 5vw;
+   right: 5vw;
+   width:10vw;
+   font-size: 3vw;
    font-family: Verdana, Geneva, Tahoma, sans-serif;
    font-weight:bold;
+   border-radius:5vw;
+}
+
+a.your-active-link{
+background-color: black;
+color:burlywood;
 }
